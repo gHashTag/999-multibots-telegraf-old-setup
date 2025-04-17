@@ -29,6 +29,7 @@ export async function getTranslation({
 
   // Первый запрос с текущим токеном
   let { data, error } = await fetchTranslation(botName)
+  console.log('data', data)
 
   // Если ошибка, пробуем с дефолтным токеном
   if (error) {

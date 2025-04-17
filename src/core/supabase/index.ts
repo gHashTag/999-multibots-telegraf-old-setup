@@ -12,7 +12,7 @@ export const supabaseAdmin = createClient(
   SUPABASE_URL,
   SUPABASE_SERVICE_ROLE_KEY
 )
-
+export * from './getBotGroupFromAvatars'
 export * from './createUser'
 export * from './createModelTraining'
 export * from './checkSubscriptionByTelegramId'
